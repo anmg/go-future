@@ -188,16 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSquare in go-future/internal/app/square">
-    <configuration name="go build Square.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-future" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/internal/app/Square.go" />
-      <package value="go-future" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestStringRune in go-future/internal/app/string_test">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-future" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -207,15 +198,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSquare in go-future/internal/app" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestArrayiInit in go-future/internal/app/array_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-future" />
-      <working_directory value="$PROJECT_DIR$/internal/app" />
+      <working_directory value="$PROJECT_DIR$/internal/app/array_test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go-future/internal/app" />
+      <package value="go-future/internal/app/array_test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSquare$" />
+      <pattern value="^TestArrayiInit$" />
       <method v="2" />
     </configuration>
     <configuration name="TestSquare in go-future/internal/app/square" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -227,6 +218,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestSquare$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestStringRune in go-future/internal/app/string_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-future" />
+      <working_directory value="$PROJECT_DIR$/internal/app/string_test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go-future/internal/app/string_test" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestStringRune$" />
       <method v="2" />
     </configuration>
     <configuration name="square_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -241,18 +243,18 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build main.go (1)" />
-      <item itemvalue="Go Build.go build Square.go" />
-      <item itemvalue="Go Test.TestSquare in go-future/internal/app" />
       <item itemvalue="Go Test.square_test.go" />
       <item itemvalue="Go Test.TestSquare in go-future/internal/app/square" />
+      <item itemvalue="Go Test.TestArrayiInit in go-future/internal/app/array_test" />
+      <item itemvalue="Go Test.TestStringRune in go-future/internal/app/string_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestStringRune in go-future/internal/app/string_test" />
+        <item itemvalue="Go Test.TestArrayiInit in go-future/internal/app/array_test" />
         <item itemvalue="Go Test.TestSquare in go-future/internal/app/square" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Test.square_test.go" />
-        <item itemvalue="Go Test.TestSquare in go-future/internal/app" />
-        <item itemvalue="Go Build.go build Square.go" />
       </list>
     </recent_temporary>
   </component>
