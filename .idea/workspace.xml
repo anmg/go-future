@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da19cf51-b126-429d-9537-c7dc0873d6ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/internal/app/empty_interface/empty_interface_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/app/reflect_test/reflect_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/app/temp_test/temjp_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/client_test/client_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/client_test/client_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/hello_http/hello_http.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/hello_http/hello_http.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,35 +24,83 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="11" />
+          <entry key="go" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="11" />
+          <entry key="Go" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="178" />
+          <entry key="go" value="1134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="178" />
+          <entry key="Go" value="1134" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmd/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#14#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/internal/app/temp_test/temjp_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+              <folding>
+                <element signature="e#19#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/internal/app/empty_interface/empty_interface_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+              <folding>
+                <element signature="e#25#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/internal/app/reflect_test/reflect_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
+              <folding>
+                <element signature="e#22#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/internal/app/square/square_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding>
+                <element signature="e#21#75#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +130,11 @@
         <option value="$PROJECT_DIR$/internal/app/square/square.go" />
         <option value="$PROJECT_DIR$/internal/app/square/square_test.go" />
         <option value="$PROJECT_DIR$/internal/app/client_test/client_test.go" />
-        <option value="$PROJECT_DIR$/cmd/main.go" />
         <option value="$PROJECT_DIR$/internal/app/hello_http/hello_http.go" />
+        <option value="$PROJECT_DIR$/cmd/main.go" />
+        <option value="$PROJECT_DIR$/internal/app/reflect_test/reflect_test.go" />
+        <option value="$PROJECT_DIR$/internal/app/temp_test/temjp_test.go" />
+        <option value="$PROJECT_DIR$/internal/app/empty_interface/empty_interface_test.go" />
       </list>
     </option>
   </component>
@@ -114,6 +167,17 @@
               <item name="go-future" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-future" type="462c0819:PsiDirectoryNode" />
               <item name="cmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-future" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-future" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -150,104 +214,107 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
-    <configuration name="go build hello_http.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.empty_interface_test.go">
+    <configuration name="TestEmptyInterface in go-future/internal/app/empty_interface" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-future" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/internal/app/hello_http/hello_http.go" />
-      <package value="go-future" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-future" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/cmd/main.go" />
-      <package value="go-future" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestClient in go-future/internal/app/client_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-future" />
-      <working_directory value="$PROJECT_DIR$/internal/app/client_test" />
+      <working_directory value="$PROJECT_DIR$/internal/app/empty_interface" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go-future/internal/app/client_test" />
+      <package value="go-future/internal/app/empty_interface" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestClient$" />
+      <pattern value="^TestEmptyInterface$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestStringRune in go-future/internal/app/string_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestReflectStruct in go-future/internal/app/reflect_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-future" />
-      <working_directory value="$PROJECT_DIR$/internal/app/string_test" />
+      <working_directory value="$PROJECT_DIR$/internal/app/reflect_test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go-future/internal/app/string_test" />
+      <package value="go-future/internal/app/reflect_test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestStringRune$" />
+      <pattern value="^TestReflectStruct$" />
       <method v="2" />
     </configuration>
-    <configuration name="client_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTemp in go-future/internal/app/temp_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-future" />
-      <working_directory value="$PROJECT_DIR$/internal/app/client_test" />
+      <working_directory value="$PROJECT_DIR$/internal/app/temp_test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go-future/internal/app/temp_test" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestTemp$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="empty_interface_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-future" />
+      <working_directory value="$PROJECT_DIR$/internal/app/empty_interface" />
       <framework value="gotest" />
       <kind value="FILE" />
       <package value="go-future" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/internal/app/client_test/client_test.go" />
+      <filePath value="$PROJECT_DIR$/internal/app/empty_interface/empty_interface_test.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="temjp_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-future" />
+      <working_directory value="$PROJECT_DIR$/internal/app/temp_test" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="go-future" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/internal/app/temp_test/temjp_test.go" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go (1)" />
-      <item itemvalue="Go Test.TestStringRune in go-future/internal/app/string_test" />
-      <item itemvalue="Go Build.go build hello_http.go" />
-      <item itemvalue="Go Test.TestClient in go-future/internal/app/client_test" />
-      <item itemvalue="Go Test.client_test.go" />
+      <item itemvalue="Go Test.TestReflectStruct in go-future/internal/app/reflect_test" />
+      <item itemvalue="Go Test.temjp_test.go" />
+      <item itemvalue="Go Test.TestTemp in go-future/internal/app/temp_test" />
+      <item itemvalue="Go Test.TestEmptyInterface in go-future/internal/app/empty_interface" />
+      <item itemvalue="Go Test.empty_interface_test.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Test.client_test.go" />
-        <item itemvalue="Go Test.TestClient in go-future/internal/app/client_test" />
-        <item itemvalue="Go Build.go build hello_http.go" />
-        <item itemvalue="Go Test.TestStringRune in go-future/internal/app/string_test" />
+        <item itemvalue="Go Test.empty_interface_test.go" />
+        <item itemvalue="Go Test.TestEmptyInterface in go-future/internal/app/empty_interface" />
+        <item itemvalue="Go Test.TestTemp in go-future/internal/app/temp_test" />
+        <item itemvalue="Go Test.temjp_test.go" />
+        <item itemvalue="Go Test.TestReflectStruct in go-future/internal/app/reflect_test" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="square_test_go - 2020.05.02 at 18h 20m 35s.xml">
-      <configuration name="square_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTemp_in_go-future_internal_app_temp_test - 2020.05.03 at 10h 15m 43s.xml">
+      <configuration name="TestTemp in go-future/internal/app/temp_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="square_test_go - 2020.05.02 at 18h 21m 34s.xml">
-      <configuration name="square_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTemp_in_go-future_internal_app_temp_test - 2020.05.03 at 10h 15m 53s.xml">
+      <configuration name="TestTemp in go-future/internal/app/temp_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSquare_in_go-future_internal_app - 2020.05.02 at 18h 21m 51s.xml">
-      <configuration name="TestSquare in go-future/internal/app" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTemp_in_go-future_internal_app_temp_test - 2020.05.03 at 10h 16m 17s.xml">
+      <configuration name="TestTemp in go-future/internal/app/temp_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSquare_in_go-future_internal_app - 2020.05.02 at 18h 21m 57s.xml">
-      <configuration name="TestSquare in go-future/internal/app" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTemp_in_go-future_internal_app_temp_test - 2020.05.03 at 10h 16m 33s.xml">
+      <configuration name="TestTemp in go-future/internal/app/temp_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="square_test_go - 2020.05.02 at 18h 22m 04s.xml">
-      <configuration name="square_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTemp_in_go-future_internal_app_temp_test - 2020.05.03 at 10h 16m 40s.xml">
+      <configuration name="TestTemp in go-future/internal/app/temp_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="square_test_go - 2020.05.02 at 18h 23m 02s.xml">
-      <configuration name="square_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTemp_in_go-future_internal_app_temp_test - 2020.05.03 at 10h 17m 39s.xml">
+      <configuration name="TestTemp in go-future/internal/app/temp_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSquare_in_go-future_internal_app_square - 2020.05.02 at 18h 26m 45s.xml">
-      <configuration name="TestSquare in go-future/internal/app/square" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestEmptyInterface_in_go-future_internal_app_empty_interface - 2020.05.03 at 11h 06m 03s.xml">
+      <configuration name="TestEmptyInterface in go-future/internal/app/empty_interface" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestArrayiInit_in_go-future_internal_app_array_test - 2020.05.02 at 18h 33m 46s.xml">
-      <configuration name="TestArrayiInit in go-future/internal/app/array_test" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestEmptyInterface_in_go-future_internal_app_empty_interface - 2020.05.03 at 11h 06m 30s.xml">
+      <configuration name="TestEmptyInterface in go-future/internal/app/empty_interface" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestStringRune_in_go-future_internal_app_string_test - 2020.05.02 at 18h 33m 56s.xml">
-      <configuration name="TestStringRune in go-future/internal/app/string_test" configurationId="GoTestRunConfiguration" />
+    <history-entry file="empty_interface_test_go - 2020.05.03 at 11h 08m 39s.xml">
+      <configuration name="empty_interface_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="client_test_go - 2020.05.02 at 18h 42m 25s.xml">
-      <configuration name="client_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="empty_interface_test_go - 2020.05.03 at 11h 09m 45s.xml">
+      <configuration name="empty_interface_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -255,7 +322,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
@@ -263,8 +330,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28996283" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28996283" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -279,6 +346,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/app/temp_test/temjp_test.go</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/internal/app.go">
@@ -299,16 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/internal/app/square/square_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="e#21#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -346,12 +415,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/square/square_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="e#21#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/reflect_test/reflect_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#22#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cmd/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#14#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/temp_test/temjp_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+          <folding>
+            <element signature="e#19#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/app/empty_interface/empty_interface_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="e#25#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
