@@ -1,6 +1,10 @@
 package map_test
 
-import "testing"
+import (
+	"strconv"
+	"sync"
+	"testing"
+)
 
 func TestMapInit(t *testing.T)  {
 	map1 := map[string]int {"aaa" :1,"bbb" :1,"ccc" :1}
@@ -56,4 +60,48 @@ func TestMapWithFuncValue2(t *testing.T){
 	t.Log(m[1](2))
 	t.Log(m[2](2))
 	t.Log(m[3](2))
+}
+
+func TestMap2(t *testing.T)  {
+	m := map[string]string{}
+	m["result"] = "result"
+	var m1 map[string]string
+	m1 = make(map[string]string)
+	m1["result"] = "result"
+
+}
+
+// M
+type M struct {
+	Map map[string]string
+	lock sync.RWMutex
+}
+
+// Set ...
+func (m *M) Set(key, value string) {
+	m.lock.Lock()
+	defer m.lock.Unlock()
+	m.Map[key] = value
+}
+
+// Get ...
+func (m *M) Get(key string) string {
+	return m.Map[key]
+}
+
+// TestMap  ...
+func TestMap(t *testing.T) {
+	c := new(M)
+	wg := sync.WaitGroup{}
+	for i := 0; i < 21; i++ {
+		wg.Add(1)
+		go func(n int) {
+			k, v := strconv.Itoa(n), strconv.Itoa(n)
+			c.Set(k, v)
+			t.Logf("k=:%v,v:=%v\n", k, c.Get(k))
+			wg.Done()
+		}(i)
+	}
+	wg.Wait()
+	t.Log("ok finished.")
 }
