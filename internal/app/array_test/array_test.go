@@ -2,7 +2,7 @@ package array_test
 
 import "testing"
 
-func TestArrayiInit(t *testing.T) {
+func TestArrayInit(t *testing.T) {
 	var a [3]int
 	a[0] = 1
 

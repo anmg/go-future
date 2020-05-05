@@ -36,3 +36,18 @@ func TestGetSingletonObj(t *testing.T){
 	}
 	wg.Wait()
 }
+
+
+type Config struct {
+
+}
+
+var cfg *Config
+
+func getInstance() *Config {
+	if cfg == nil {
+		cfg = new(Config)
+	}
+	return cfg
+}
+
