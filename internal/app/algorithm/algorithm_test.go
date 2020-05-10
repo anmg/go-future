@@ -28,21 +28,29 @@ func twoSum1(nums[]int, target int) []int {
 	return ret
 }
 
-func twoSum(nums[]int, target int) []int {
-	ret := []int{}
-	num_map := map[int] int {}
+func twoSum(nums[]int, target int) [][]int {
+	ret := [][]int{}
+	ret_map := map[int]bool{}
+	num_map := map[int]int{}
+
 	for i, num := range nums{
 		temp := target - num
-		if v,ok := num_map[temp];ok {
-			ret = append(ret, v)
-			ret = append(ret, i)
+		if _,ok := num_map[temp];ok {
+			if ret_map[temp] != true && ret_map[num] != true {
+				num_pairs := []int{}
+				num_pairs = append(num_pairs, temp)
+				num_pairs = append(num_pairs, num)
+				ret = append(ret, num_pairs)
+				ret_map[temp] = true
+				ret_map[num] = true
+			}
 		}else{
 			num_map[num] = i
 		}
 
-		if len(ret) > 0 {
-			break
-		}
+		//if len(ret) > 0 {
+		//	break
+		//}
 	}
 
 	return ret
@@ -107,15 +115,16 @@ func threeSum(nums []int) [][]int {
 	return ret
 }
 
-func TestThreeSum(t *testing.T)  {
-	nums := []int{-1, 0, 1, 2, -1, -4}
-	fmt.Println(nums)
-	ret := threeSum(nums)
-	fmt.Println(ret)
-}
-
-//func TestTwoSum(t *testing.T) {
-//	nums := []int{3, 2, 4}
-//	ret := twoSum(nums, 6)
+//func TestThreeSum(t *testing.T)  {
+//	nums := []int{-1, 0, 1, 2, -1, -4}
+//	fmt.Println(nums)
+//	ret := threeSum(nums)
 //	fmt.Println(ret)
 //}
+
+func TestTwoSum(t *testing.T) {
+	nums := []int{3, 2, 4, 6, 7, 1, 3, 5, 5, 1}
+	fmt.Println(nums)
+	ret := twoSum(nums, 6)
+	fmt.Println(ret)
+}

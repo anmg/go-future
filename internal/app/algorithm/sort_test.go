@@ -214,6 +214,8 @@ func radix_sort(li []int) {
 			max_num = li[i]
 		}
 	}
+
+
 	for j := 0; j < len(strconv.Itoa(max_num)); j++ {
 		bin := make([][]int, 10)
 		for k := 0; k < len(li); k++ {
