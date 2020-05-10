@@ -18,6 +18,8 @@ func GetSingletonObj() *Singleton{
 	once.Do(func() {
 		//fmt.Println("Creat obj")
 		singleInstance = new(Singleton)
+		singleInstance.Name = "anmg"
+		singleInstance.age = 30
 	})
 	return  singleInstance
 }

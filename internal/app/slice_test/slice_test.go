@@ -1,6 +1,7 @@
 package slice_test
 
 import (
+	"fmt"
 	"testing"
 )
 
@@ -52,4 +53,14 @@ func TestSliceShareMemory(t *testing.T){
 	t.Log(Q2, len(Q2), cap(Q2))
 	t.Log(summer, len(summer), cap(summer))
 	t.Log(year, len(year), cap(year))
+}
+
+func TestSlice(t *testing.T) {
+	var array [10]int
+
+	var slice = array[5:6]
+
+	fmt.Println("lenth of slice: ", len(slice))
+	fmt.Println("capacity of slice: ", cap(slice))
+	fmt.Println(&slice[0] == &array[5])
 }

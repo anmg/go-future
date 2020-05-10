@@ -1,8 +1,8 @@
 package functions_test
 
 import (
+	functions "go-future/internal/app/unit_test"
 	"testing"
-
 )
 
 func TestSquare(t *testing.T) {
@@ -15,3 +15,4 @@ func TestSquare(t *testing.T) {
 		}
 	}
 }
+
