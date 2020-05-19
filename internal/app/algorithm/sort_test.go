@@ -3,6 +3,7 @@ package sort_test
 import (
 	"fmt"
 	"math"
+	"math/rand"
 	"strconv"
 	"testing"
 )
@@ -234,12 +235,17 @@ func radix_sort(li []int) {
 
 func TestSort(t *testing.T)  {
 	//nums := []int{-1, 0, 1, 2, -1, -4}
-	nums := []int{2,4,1,9,5,7,3}
-	fmt.Println("input:", nums)
-	quick_sort(nums, 0, 6)
-	fmt.Println("quick_sort", nums)
 
-	bubble_sort(nums)
-	fmt.Println("bubble_sort", nums)
+	var length = 10
+	nums := []int{}
+	for i := 0; i < length; i++ {
+		nums = append(nums, rand.Intn(100))
+	}
+
+	fmt.Println("input:", nums)
+	//quick_sort(nums, 0, 6)
+	//bubble_sort(nums)
+	insert_sort(nums)
+	fmt.Println("output", nums)
 }
 

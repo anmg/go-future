@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8130a056-7ab7-421c-92db-cf30f21d3d94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/internal/app/singleton/cplusplus_singleton_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/app/ticker/ticker_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/app/treenode_test/treenode_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/app/water_test/water_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/app/cc/replaceSpace.cc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/app/algorithm/algorithm_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/algorithm/algorithm_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/app/algorithm/sort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/algorithm/sort_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/array_test/array_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/array_test/array_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/channel_test/channel_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/channel_test/channel_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/context_test/contest_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/context_test/contest_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/select_test/select_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/select_test/select_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/singleton/once_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/singleton/once_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/slice_test/slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/slice_test/slice_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/app/unit_test/functions_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/unit_test/functions_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/treenode_test/treenode_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/treenode_test/treenode_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,28 +46,24 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Go Test.TestTreeNode in go-future/internal/app/treenode_test">
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/internal/app/merge_test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.merge_test.go">
+    <configuration name="TestMerge in go-future/internal/app/merge_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-future" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/cmd/main.go" />
-      <package value="go-future" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestTreeNode in go-future/internal/app/treenode_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-future" />
-      <working_directory value="$PROJECT_DIR$/internal/app/treenode_test" />
+      <working_directory value="$PROJECT_DIR$/internal/app/merge_test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go-future/internal/app/treenode_test" />
+      <package value="go-future/internal/app/merge_test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestTreeNode$" />
+      <pattern value="^TestMerge$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestTwoSum in go-future/internal/app/algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSort in go-future/internal/app/algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-future" />
       <working_directory value="$PROJECT_DIR$/internal/app/algorithm" />
       <framework value="gotest" />
@@ -85,43 +71,53 @@
       <package value="go-future/internal/app/algorithm" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestTwoSum$" />
+      <pattern value="^TestSort$" />
       <method v="2" />
     </configuration>
-    <configuration name="algorithm_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="gobench go-future/internal/app/algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-future" />
+      <working_directory value="$PROJECT_DIR$/internal/app/algorithm" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="go-future/internal/app/algorithm" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="merge_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-future" />
+      <working_directory value="$PROJECT_DIR$/internal/app/merge_test" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="go-future" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/internal/app/merge_test/merge_test.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sort_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-future" />
       <working_directory value="$PROJECT_DIR$/internal/app/algorithm" />
       <framework value="gotest" />
       <kind value="FILE" />
       <package value="go-future" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/internal/app/algorithm/algorithm_test.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="treenode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-future" />
-      <working_directory value="$PROJECT_DIR$/internal/app/treenode_test" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <package value="go-future" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/internal/app/treenode_test/treenode_test.go" />
+      <filePath value="$PROJECT_DIR$/internal/app/algorithm/sort_test.go" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Test.treenode_test.go" />
-      <item itemvalue="Go Test.algorithm_test.go" />
-      <item itemvalue="Go Test.TestTwoSum in go-future/internal/app/algorithm" />
-      <item itemvalue="Go Test.TestTreeNode in go-future/internal/app/treenode_test" />
+      <item itemvalue="Go Test.TestSort in go-future/internal/app/algorithm" />
+      <item itemvalue="Go Test.sort_test.go" />
+      <item itemvalue="Go Test.gobench go-future/internal/app/algorithm" />
+      <item itemvalue="Go Test.TestMerge in go-future/internal/app/merge_test" />
+      <item itemvalue="Go Test.merge_test.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestTreeNode in go-future/internal/app/treenode_test" />
-        <item itemvalue="Go Test.treenode_test.go" />
-        <item itemvalue="Go Test.algorithm_test.go" />
-        <item itemvalue="Go Test.TestTwoSum in go-future/internal/app/algorithm" />
-        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.merge_test.go" />
+        <item itemvalue="Go Test.TestMerge in go-future/internal/app/merge_test" />
+        <item itemvalue="Go Test.gobench go-future/internal/app/algorithm" />
+        <item itemvalue="Go Test.sort_test.go" />
+        <item itemvalue="Go Test.TestSort in go-future/internal/app/algorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -132,55 +128,60 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="788" height="466" key="DebuggerActiveHint" timestamp="1588778045599">
+    <state width="788" height="466" key="DebuggerActiveHint" timestamp="1589187028123">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="788" height="466" key="DebuggerActiveHint/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589187028123" />
     <state width="788" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1588778045599" />
-    <state width="1398" height="140" key="GridCell.Tab.0.bottom" timestamp="1589035392086">
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom" timestamp="1589285270294">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="140" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589019275807" />
-    <state width="1398" height="140" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589035392086" />
-    <state width="1398" height="140" key="GridCell.Tab.0.center" timestamp="1589035392085">
+    <state width="1398" height="294" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589189299099" />
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589285270294" />
+    <state width="1398" height="2" key="GridCell.Tab.0.center" timestamp="1589285270293">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="140" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589019275806" />
-    <state width="1398" height="140" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589035392085" />
-    <state width="1398" height="140" key="GridCell.Tab.0.left" timestamp="1589035392085">
+    <state width="1398" height="294" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589189299096" />
+    <state width="1398" height="2" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589285270293" />
+    <state width="1398" height="2" key="GridCell.Tab.0.left" timestamp="1589285270293">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="140" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589019275805" />
-    <state width="1398" height="140" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589035392085" />
-    <state width="1398" height="140" key="GridCell.Tab.0.right" timestamp="1589035392086">
+    <state width="1398" height="294" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589189299094" />
+    <state width="1398" height="2" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589285270293" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right" timestamp="1589285270294">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="140" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589019275806" />
-    <state width="1398" height="140" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589035392086" />
-    <state width="1398" height="294" key="GridCell.Tab.1.bottom" timestamp="1588838015306">
+    <state width="1398" height="294" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589189299097" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589285270294" />
+    <state width="1398" height="16" key="GridCell.Tab.1.bottom" timestamp="1589198954391">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="294" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588838015306" />
+    <state width="1398" height="294" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589189305859" />
+    <state width="1398" height="16" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589198954391" />
     <state width="1398" height="294" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1588693587126" />
-    <state width="1398" height="294" key="GridCell.Tab.1.center" timestamp="1588838015305">
+    <state width="1398" height="16" key="GridCell.Tab.1.center" timestamp="1589198954390">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="294" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1588838015305" />
+    <state width="1398" height="294" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589189305856" />
+    <state width="1398" height="16" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1589198954390" />
     <state width="1398" height="294" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1588693587125" />
-    <state width="1398" height="294" key="GridCell.Tab.1.left" timestamp="1588838015304">
+    <state width="1398" height="16" key="GridCell.Tab.1.left" timestamp="1589198954390">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="294" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1588838015304" />
+    <state width="1398" height="294" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589189305853" />
+    <state width="1398" height="16" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1589198954390" />
     <state width="1398" height="294" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1588693587124" />
-    <state width="1398" height="294" key="GridCell.Tab.1.right" timestamp="1588838015305">
+    <state width="1398" height="16" key="GridCell.Tab.1.right" timestamp="1589198954391">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="294" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1588838015305" />
+    <state width="1398" height="294" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589189305858" />
+    <state width="1398" height="16" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1589198954391" />
     <state width="1398" height="294" key="GridCell.Tab.1.right/0.23.1440.829@0.23.1440.829" timestamp="1588693587125" />
-    <state x="254" y="131" key="SettingsEditor" timestamp="1589012793840">
+    <state x="260" y="55" key="SettingsEditor" timestamp="1589640960953">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="254" y="131" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589012793840" />
-    <state x="260" y="55" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1588841037732" />
+    <state x="260" y="55" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1589640960953" />
     <state x="208" y="130" key="SettingsEditor/0.23.1440.829@0.23.1440.829" timestamp="1588675682092" />
     <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1588681682576">
       <screen x="0" y="0" width="1440" height="900" />

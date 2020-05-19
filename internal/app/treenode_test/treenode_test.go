@@ -190,8 +190,8 @@ func TestTreeNode(t *testing.T) {
     p := new(Node)
     q := new(Node)
 
-    var node *Node{}
-    node = lowestCommonAncestor(&root, p, q)
+    //var node *Node{}
+    lowestCommonAncestor(&root, p, q)
 
     fmt.Println(nums)
 }

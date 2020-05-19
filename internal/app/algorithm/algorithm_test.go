@@ -19,7 +19,6 @@ func twoSum1(nums[]int, target int) []int {
 				break
 			}
 		}
-
 		if len(ret) > 0 {
 			break
 		}
